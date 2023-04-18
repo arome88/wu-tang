@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  	<meta charset="utf-8">
+  	<meta name="description" content="Your description goes here">
+  	<meta name="keywords" content="one, two, three">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<title>Wu-Tang Generator</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<h1>Wu-Tang Name Generator</h1>
+        <h2>Find out your unique Wu-Tang Clan name below!</h2>
+
+        <section>
+            <label for="member-select">Who is your favorite member of the Wu-Tang Clan?</label>
+            <select id="wuTangMember">
+                <option value="none">--Pick a Member--</option>
+                <option value="0">U-God</option>
+                <option value="1">Method Man</option>
+                <option value="2">ODB (RIP)</option>
+				<option value="3">RZA</option>
+				<option value="4">GZA</option>
+				<option value="5">Inspectah Deck</option>
+            </select>
+        </section>
+    
+        <section>
+            <label for="album-select">What's your favorite Wu-Tang album?</label>
+            <select id="album">
+                <option value="none">--Pick an Album--</option>
+                <option value="0">Enter the Wu-tang</option>
+                <option value="1">The Swarm</option>
+                <option value="2">More into the solo albums than the group albums</option>
+            </select>
+        </section>
+    
+        <section>
+            <label for="why-select">Why is Wu-Tang one of your favorite groups?</label>
+            <select id="why">
+                <option value="none">--Pick a Reason--</option>
+                <option value="0">They kept getting better with each album</option>
+                <option value="1">Bringing together that many rappers was a fire idea iykyk</option>
+                <option value="2">because WU-TANG FOREVER</option>
+            </select>
+        </section>
+    
+        <section>
+            <label for="acting-select">Any interest in acting?</label>
+            <select id="acting">
+                <option value="none">--Pick your Talent--</option>
+                <option value="0">Comedies - like Method Man</option>
+                <option value="1">Juggle - acting, directing, writing ETC. - like RZA</option>
+                <option value="2">Not into acting but I'll play myself in a movie - like Ghostface Killah</option>
+				<option value="3">Nah I'm not interested in acting I'll atch instead - like Masta Killa</option>
+            </select>
+        </section>
+    
+        <section>
+            <label for="soloAlbum-select">Pick a solo album by one of the members.</label>
+            <select id="soloAlbum">
+                <option value="none">--Pick a Solo Album--</option>
+                <option value="0">Ghostface Killah's Fishscale</option>
+                <option value="1">U-God's Dopium</option>
+                <option value="2">Method Man's Tical 2000: Judgement Day</option>
+				<option value="3">Ol' Dirty Bastards Return to the 36 Chambers: The Dirty Version</option>
+            </select>
+        </section>
+    
+        <section>
+            <button>Enter the Wu-Tang</button>
+            <h2 id="name"> </h2>
+        </section>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
